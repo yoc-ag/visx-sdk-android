@@ -3,8 +3,8 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yoc.visx.sdk</groupId>
-  <artifactId>mediation-adapter-goolgeads</artifactId>
-  <version>19.2.0.0</version>
+  <artifactId>google-custom-events</artifactId>
+  <version>1.2.2.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
