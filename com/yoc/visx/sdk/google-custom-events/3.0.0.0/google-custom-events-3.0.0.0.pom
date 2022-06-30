@@ -3,14 +3,32 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.yoc.visx.sdk</groupId>
-  <artifactId>mediation-adapter-smartserverads</artifactId>
-  <version>7.14.0.4</version>
+  <artifactId>google-custom-events</artifactId>
+  <version>3.0.0.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
       <groupId>com.yoc.visx.sdk</groupId>
       <artifactId>visx-sdk</artifactId>
       <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-ads</artifactId>
+      <version>20.6.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.android.gms</groupId>
+      <artifactId>play-services-base</artifactId>
+      <version>18.0.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.appnexus.opensdk</groupId>
+      <artifactId>appnexus-sdk</artifactId>
+      <version>[7,8)</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
